@@ -29,6 +29,7 @@ return {
           enabled = false,
         },
       },
+      kitty_method = "normal",
       max_width = nil,
       max_height = nil,
       max_width_window_percentage = nil,
