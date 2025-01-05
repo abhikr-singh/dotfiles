@@ -1,0 +1,73 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="CreateDesktopEntry">
+      <i c="2" l="1735999785770" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="4" l="1735999949170" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1735999873640" />
+    </e>
+    <e n="EditorDown">
+      <i c="4" l="1735999944870" />
+    </e>
+    <e n="EditorLeft">
+      <i c="10" l="1735999946574" />
+    </e>
+    <e n="EditorToggleInsertState">
+      <i c="2" l="1735999947395" />
+    </e>
+    <e n="ExternalSystem.ProjectRefreshAction">
+      <i c="1" l="1735999955992" />
+    </e>
+    <e n="Find">
+      <i c="1" l="1735999922175" />
+    </e>
+    <e n="GitCheckoutAction">
+      <i c="1" l="1735999538382" />
+    </e>
+    <e n="GotoFile">
+      <i c="1" l="1735999569356" />
+    </e>
+    <e n="Maven.RunBuild">
+      <i c="5" l="1735999969599" />
+    </e>
+    <e n="SaveAll">
+      <i c="1" l="1735999951747" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1735999773534" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1735999482715" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1735999925685" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="3" l="1735999692725" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1735999563018" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1735999581282" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="3" l="1736000199251" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="4" l="1736000191552" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1735999781885" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1735974181543" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="2" l="1736000189652" />
+    </e>
+  </component>
+</application>

@@ -1,0 +1,696 @@
+12:22:51.424: Platform: Wayland
+12:22:51.424: CPU Name: Intel(R) Core(TM) i7-14700HX
+12:22:51.424: CPU Speed: 800.000MHz
+12:22:51.425: Physical Cores: 20, Logical Cores: 28
+12:22:51.425: Physical Memory: 15694MB Total, 13768MB Free
+12:22:51.425: Kernel Version: Linux 6.12.8-arch1-1
+12:22:51.425: Distribution: "Arch Linux" Unknown
+12:22:51.425: Desktop Environment: Hyprland (Hyprland)
+12:22:51.425: Session Type: wayland
+12:22:51.430: Qt Version: 6.8.1 (runtime), 6.8.1 (compiled)
+12:22:51.430: Portable mode: false
+12:22:51.630: OBS 31.0.0 (linux)
+12:22:51.630: ---------------------------------
+12:22:51.636: ---------------------------------
+12:22:51.636: audio settings reset:
+12:22:51.636: 	samples per sec: 48000
+12:22:51.636: 	speakers:        2
+12:22:51.636: 	max buffering:   960 milliseconds
+12:22:51.636: 	buffering type:  dynamically increasing
+12:22:51.644: ---------------------------------
+12:22:51.644: Initializing OpenGL...
+12:22:51.644: Using EGL/Wayland
+12:22:51.673: Initialized EGL 1.5
+12:22:51.684: Loading up OpenGL on adapter Intel Mesa Intel(R) Graphics (RPL-S)
+12:22:51.684: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.3.2-arch1.1, shading language 4.60
+12:22:51.751: ---------------------------------
+12:22:51.751: video settings reset:
+12:22:51.751: 	base resolution:   1920x1080
+12:22:51.751: 	output resolution: 1920x1080
+12:22:51.751: 	downscale filter:  Bicubic
+12:22:51.751: 	fps:               60/1
+12:22:51.751: 	format:            NV12
+12:22:51.751: 	YUV mode:          Rec. 709/Partial
+12:22:51.751: NV12 texture support enabled
+12:22:51.751: P010 texture support not available
+12:22:51.758: Audio monitoring device:
+12:22:51.758: 	name: Default
+12:22:51.758: 	id: default
+12:22:51.763: ---------------------------------
+12:22:51.775: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:22:51.790: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:22:51.804: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:22:51.805: Failed to initialize module 'decklink.so'
+12:22:52.054: [pipewire] Available capture sources:
+12:22:52.054: [pipewire]     - Monitor source
+12:22:52.054: [pipewire]     - Window source
+12:22:52.087: v4l2loopback not installed, virtual camera not registered
+12:22:52.301: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+12:22:52.304: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+12:22:52.313: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+12:22:52.316: FFmpeg VAAPI H264 encoding not supported
+12:22:52.316: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+12:22:52.320: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+12:22:52.321: FFmpeg VAAPI AV1 encoding not supported
+12:22:52.322: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+12:22:52.325: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+12:22:52.326: FFmpeg VAAPI HEVC encoding not supported
+12:22:52.382: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+12:22:52.382: 
+12:22:52.382: NVENC not supported
+12:22:52.382: Failed to initialize module 'obs-nvenc.so'
+12:22:52.624: ---------------------------------
+12:22:52.624:   Loaded Modules:
+12:22:52.624:     droidcam-obs.so
+12:22:52.624:     text-freetype2.so
+12:22:52.624:     rtmp-services.so
+12:22:52.624:     obs-x264.so
+12:22:52.624:     obs-webrtc.so
+12:22:52.624:     obs-vst.so
+12:22:52.624:     obs-transitions.so
+12:22:52.624:     obs-qsv11.so
+12:22:52.624:     obs-outputs.so
+12:22:52.624:     obs-libfdk.so
+12:22:52.624:     obs-filters.so
+12:22:52.624:     obs-ffmpeg.so
+12:22:52.624:     linux-v4l2.so
+12:22:52.624:     linux-pulseaudio.so
+12:22:52.624:     linux-pipewire.so
+12:22:52.624:     linux-jack.so
+12:22:52.624:     linux-capture.so
+12:22:52.624:     linux-alsa.so
+12:22:52.624:     image-source.so
+12:22:52.624:     frontend-tools.so
+12:22:52.624:     decklink-output-ui.so
+12:22:52.624:     decklink-captions.so
+12:22:52.624: ---------------------------------
+12:22:52.624: ---------------------------------
+12:22:52.624: Available Encoders:
+12:22:52.624:   Video Encoders:
+12:22:52.624: 	- ffmpeg_svt_av1 (SVT-AV1)
+12:22:52.624: 	- ffmpeg_aom_av1 (AOM AV1)
+12:22:52.624: 	- obs_x264 (x264)
+12:22:52.624:   Audio Encoders:
+12:22:52.624: 	- ffmpeg_aac (FFmpeg AAC)
+12:22:52.624: 	- ffmpeg_opus (FFmpeg Opus)
+12:22:52.624: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+12:22:52.624: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+12:22:52.624: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+12:22:52.624: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+12:22:52.624: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+12:22:52.624: 	- libfdk_aac (libfdk AAC)
+12:22:52.624: ==== Startup complete ===============================================
+12:22:52.686: All scene data cleared
+12:22:52.686: ------------------------------------------------
+12:22:52.694: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+12:22:52.695: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:22:52.695: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+12:22:52.696: [Loaded global audio device]: 'Desktop Audio'
+12:22:52.697: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+12:22:52.697: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:22:52.697: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+12:22:52.713: [Loaded global audio device]: 'Mic/Aux'
+12:22:52.713:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+12:22:52.717: [DroidCamOBS] Source: "DroidCam OBS" - 233
+12:22:52.717: [DroidCamOBS] checking adb
+12:22:52.722: [DroidCamOBS] "adb version" exit value 2
+12:22:52.722: [DroidCamOBS] checking /usr/local/bin/adb
+12:22:52.722: [DroidCamOBS] checking /usr/bin/adb
+12:22:52.722: [DroidCamOBS] checking /bin/adb
+12:22:52.722: [DroidCamOBS] adb not found
+12:22:52.722: [DroidCamOBS] PATH=/usr/local/bin:/usr/bin
+12:22:52.722: [DroidCamOBS] activated=1, deactivateWNS=0, is_showing=0, enable_audio=0
+12:22:52.722: [DroidCamOBS] video_format=avc video_resolution=640x480
+12:22:52.722: [DroidCamOBS] device_info.id=dev_id_wifi device_info.ip=192.168.1.3 device_info.port=4747 device_info.type=1
+12:22:52.723: [DroidCamOBS] video_thread start
+12:22:52.723: [DroidCamOBS] video_decode_thread start
+12:22:52.723: [DroidCamOBS] audio_thread start
+12:22:52.836: PipeWire initialized
+12:22:52.837: Switched to scene 'scene'
+12:22:52.837: ------------------------------------------------
+12:22:52.837: Loaded scenes:
+12:22:52.837: - scene 'camera':
+12:22:52.837:     - source: 'cam' (group)
+12:22:52.837:         - source: 'DroidCam OBS' (droidcam_obs)
+12:22:52.837:             - filter: 'Image Mask/Blend' (mask_filter_v2)
+12:22:52.837:         - source: 'ring' (image_source)
+12:22:52.837: - scene 'scene':
+12:22:52.837:     - source: 'HP' (pipewire-screen-capture-source)
+12:22:52.837:     - source: 'cam' (group)
+12:22:52.837:         - source: 'DroidCam OBS' (droidcam_obs)
+12:22:52.837:             - filter: 'Image Mask/Blend' (mask_filter_v2)
+12:22:52.837:         - source: 'ring' (image_source)
+12:22:52.837: - scene 'shorts':
+12:22:52.837:     - source: 'HP' (pipewire-screen-capture-source)
+12:22:52.837:     - source: 'cam' (group)
+12:22:52.837:         - source: 'DroidCam OBS' (droidcam_obs)
+12:22:52.837:             - filter: 'Image Mask/Blend' (mask_filter_v2)
+12:22:52.837:         - source: 'ring' (image_source)
+12:22:52.837: ------------------------------------------------
+12:22:52.929: [pipewire] Screencast session created
+12:22:52.985: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:22:52.993: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:22:53.344: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+12:22:53.344: 
+12:22:53.408: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+12:22:53.408: 
+12:22:56.071: [pipewire] Asking for monitor and window
+12:22:56.076: [pipewire] source selected, setting up screencast
+12:22:56.081: [pipewire] Server version: 1.2.7
+12:22:56.081: [pipewire] Library version: 1.2.7
+12:22:56.081: [pipewire] Header version: 1.2.7
+12:22:56.082: [pipewire] Created stream 0x55748bce64e0
+12:22:56.082: [pipewire] Stream 0x55748bce64e0 state: "connecting" (error: none)
+12:22:56.082: [pipewire] Playing stream 0x55748bce64e0
+12:22:56.083: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:22:56.097: [pipewire] Negotiated format:
+12:22:56.097: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:22:56.097: [pipewire]     Modifier: 0x0
+12:22:56.097: [pipewire]     Size: 1920x1080
+12:22:56.097: [pipewire]     Framerate: 0/1
+12:22:56.101: [pipewire] Negotiated format:
+12:22:56.101: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:22:56.101: [pipewire]     Modifier: 0x100000000000008
+12:22:56.101: [pipewire]     Size: 1920x1080
+12:22:56.101: [pipewire]     Framerate: 0/1
+12:22:56.110: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:22:58.908: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+12:22:58.908: [pipewire] Renegotiating stream
+12:22:58.909: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:22:58.909: [pipewire] Negotiated format:
+12:22:58.909: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:22:58.909: [pipewire]     Modifier: 0x100000000000008
+12:22:58.909: [pipewire]     Size: 1920x1080
+12:22:58.909: [pipewire]     Framerate: 0/1
+12:22:58.912: [pipewire] Negotiated format:
+12:22:58.912: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:22:58.912: [pipewire]     Modifier: 0x100000000000006
+12:22:58.912: [pipewire]     Size: 1920x1080
+12:22:58.912: [pipewire]     Framerate: 0/1
+12:22:58.919: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:22:58.936: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+12:22:58.936: [pipewire] Renegotiating stream
+12:22:58.937: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:22:58.937: [pipewire] Negotiated format:
+12:22:58.937: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:22:58.937: [pipewire]     Modifier: 0x100000000000006
+12:22:58.937: [pipewire]     Size: 1920x1080
+12:22:58.937: [pipewire]     Framerate: 0/1
+12:22:58.939: [pipewire] Negotiated format:
+12:22:58.939: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:22:58.939: [pipewire]     Modifier: 0x100000000000002
+12:22:58.939: [pipewire]     Size: 1920x1080
+12:22:58.939: [pipewire]     Framerate: 0/1
+12:22:58.947: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:23:07.151: [DroidCamOBS] have config: 29
+12:23:07.242: [DroidCamOBS] use hw: 0
+12:23:20.152: User switched to scene 'camera'
+12:23:20.474: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:23:23.726: User switched to scene 'scene'
+12:23:23.740: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:23:24.879: User switched to scene 'shorts'
+12:23:39.259: User switched to scene 'scene'
+12:23:39.266: User Removed scene 'shorts'
+12:23:46.622: User switched to scene 'camera'
+12:23:46.940: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:23:47.690: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:23:47.691: User switched to scene 'scene'
+12:24:37.108: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:24:41.382: User added scene 'intro'
+12:24:41.385: User switched to scene 'intro'
+12:24:41.707: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:24:43.241: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65569).
+12:24:43.241: 
+12:24:47.413: User switched to scene 'scene'
+12:24:47.430: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:24:47.618: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65569).
+12:24:47.618: 
+12:24:50.405: User switched to scene 'intro'
+12:24:50.724: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:24:54.267: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:25:01.639: User added source 'background' (image_source) to scene 'intro'
+12:25:01.666: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:25:01.668: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:26:14.707: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:26:17.643: User added source 'cam' (group) to scene 'intro'
+12:28:13.314: User switched to scene 'scene'
+12:28:13.331: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:28:15.458: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:28:24.379: Source 'scene' renamed to 'scene_cam_down'
+12:28:27.672: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:28:28.963: Creating a popup with a parent, QWidgetWindow(0x55748a4e39a0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x55748bf11700, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+12:28:39.306: User added scene 'scene_cam_up'
+12:28:39.306: User added source 'HP' (pipewire-screen-capture-source) to scene 'scene_cam_up'
+12:28:39.306: User added source 'cam' (group) to scene 'scene_cam_up'
+12:28:39.316: Switched to scene 'scene_cam_up'
+12:28:56.940: User switched to scene 'scene_cam_down'
+12:29:18.088: User switched to scene 'scene_cam_up'
+12:29:19.266: User switched to scene 'scene_cam_down'
+12:29:24.453: User switched to scene 'intro'
+12:29:24.774: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:29:26.779: User switched to scene 'scene_cam_down'
+12:29:26.790: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:29:27.492: User switched to scene 'intro'
+12:29:27.824: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:29:28.179: User switched to scene 'scene_cam_down'
+12:29:28.190: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:29:29.059: User switched to scene 'intro'
+12:29:29.390: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:29:32.109: User switched to scene 'scene_cam_up'
+12:29:32.123: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:29:42.149: User switched to scene 'intro'
+12:29:42.490: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:31:47.659: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:31:47.661: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:33:51.304: Settings changed (hotkeys)
+12:33:51.304: ------------------------------------------------
+12:34:26.473: User switched to scene 'scene_cam_up'
+12:34:26.480: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:34:27.518: User switched to scene 'scene_cam_down'
+12:34:28.480: User switched to scene 'intro'
+12:34:28.790: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:34:31.583: User switched to scene 'scene_cam_down'
+12:34:31.590: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:34:49.941: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:34:51.821: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:34:51.823: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:35:23.326: Settings changed (hotkeys)
+12:35:23.326: ------------------------------------------------
+12:35:35.788: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:35:35.790: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:35:35.853: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:35:55.004: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:36:03.840: Settings changed (hotkeys)
+12:36:03.840: ------------------------------------------------
+12:36:36.470: Settings changed (hotkeys)
+12:36:36.470: ------------------------------------------------
+12:37:04.135: Settings changed (hotkeys)
+12:37:04.135: ------------------------------------------------
+12:37:21.094: User switched to scene 'scene_cam_up'
+12:37:22.184: User switched to scene 'scene_cam_down'
+12:37:23.712: User switched to scene 'intro'
+12:37:24.057: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:37:24.754: User switched to scene 'scene_cam_down'
+12:37:24.757: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:37:29.214: User switched to scene 'intro'
+12:37:29.540: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:37:30.422: User switched to scene 'scene_cam_down'
+12:37:30.423: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:37:31.694: User switched to scene 'intro'
+12:37:32.024: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:39:07.825: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:39:20.259: User added scene 'intro_cam'
+12:39:20.259: User added source 'background' (image_source) to scene 'intro_cam'
+12:39:20.259: User added source 'cam' (group) to scene 'intro_cam'
+12:39:20.269: Switched to scene 'intro_cam'
+12:39:26.051: User added source 'HP' (pipewire-screen-capture-source) to scene 'intro_cam'
+12:39:26.063: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:39:29.067: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:40:19.618: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:40:19.620: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:40:19.687: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+12:40:35.717: Settings changed (hotkeys)
+12:40:35.717: ------------------------------------------------
+12:41:08.196: User switched to scene 'intro'
+12:41:08.524: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:41:09.202: User switched to scene 'scene_cam_down'
+12:41:09.207: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:41:09.930: User switched to scene 'scene_cam_up'
+12:41:10.708: User switched to scene 'scene_cam_down'
+12:41:12.300: User switched to scene 'scene_cam_down'
+12:41:13.196: User switched to scene 'scene_cam_up'
+12:41:14.611: User switched to scene 'intro_cam'
+12:41:15.908: User switched to scene 'intro'
+12:41:16.240: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:41:16.757: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:41:16.762: User switched to scene 'scene_cam_down'
+12:41:17.474: User switched to scene 'scene_cam_up'
+12:41:32.885: User switched to scene 'scene_cam_down'
+12:41:35.219: User switched to scene 'intro_cam'
+12:41:37.300: User switched to scene 'scene_cam_down'
+12:41:38.204: User switched to scene 'intro_cam'
+12:41:39.146: User switched to scene 'scene_cam_down'
+12:41:39.961: User switched to scene 'scene_cam_up'
+12:41:40.636: User switched to scene 'scene_cam_down'
+12:41:41.412: User switched to scene 'intro_cam'
+12:41:43.307: User switched to scene 'scene_cam_down'
+12:41:45.108: User switched to scene 'intro_cam'
+12:41:46.027: User switched to scene 'scene_cam_down'
+12:41:47.515: User switched to scene 'intro_cam'
+12:41:51.590: User switched to scene 'intro'
+12:41:51.907: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:41:52.012: User switched to scene 'intro_cam'
+12:41:52.023: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:41:52.331: User switched to scene 'scene_cam_down'
+12:41:58.868: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:41:58.871: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+12:42:17.636: User switched to scene 'intro'
+12:42:17.957: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:42:18.890: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:42:18.893: User switched to scene 'intro_cam'
+12:42:19.854: User switched to scene 'scene_cam_down'
+12:42:20.625: User switched to scene 'scene_cam_up'
+12:42:21.466: User switched to scene 'intro'
+12:42:21.807: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:43:32.616: User switched to scene 'scene_cam_down'
+12:43:32.634: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:44:43.777: User switched to scene 'intro'
+12:44:44.090: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:45:57.792: User switched to scene 'scene_cam_down'
+12:45:57.798: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:46:41.683: User switched to scene 'intro'
+12:46:41.990: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:46:44.911: Starting recording due to hotkey
+12:46:44.915: ---------------------------------
+12:46:44.915: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:46:44.915: [x264 encoder: 'simple_video_recording'] profile: high
+12:46:44.920: [x264 encoder: 'simple_video_recording'] settings:
+12:46:44.920: 	rate_control: CRF
+12:46:44.920: 	bitrate:      0
+12:46:44.920: 	buffer size:  0
+12:46:44.920: 	crf:          23
+12:46:44.920: 	fps_num:      60
+12:46:44.920: 	fps_den:      1
+12:46:44.920: 	width:        1920
+12:46:44.920: 	height:       1080
+12:46:44.920: 	keyint:       250
+12:46:44.920: 
+12:46:44.967: libfdk_aac encoder created
+12:46:44.967: libfdk_aac bitrate: 192, channels: 2
+12:46:44.970: ==== Recording Start ===============================================
+12:46:44.970: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/abhi/Videos/2025-01-05 12-46-44.mp4'...
+12:47:06.440: User switched to scene 'scene_cam_down'
+12:47:06.449: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:47:32.801: Stopping recording due to hotkey
+12:47:33.669: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/abhi/Videos/2025-01-05 12-46-44.mp4' stopped
+12:47:33.669: Output 'simple_file_output': stopping
+12:47:33.669: Output 'simple_file_output': Total frames output: 2871
+12:47:33.669: Output 'simple_file_output': Total drawn frames: 2922
+12:47:33.669: ==== Recording Stop ================================================
+12:47:33.690: libfdk_aac encoder destroyed
+12:49:14.332: User switched to scene 'scene_cam_up'
+12:49:15.916: User switched to scene 'scene_cam_down'
+12:49:27.607: User switched to scene 'intro_cam'
+12:49:31.560: User switched to scene 'intro'
+12:49:31.907: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:50:04.389: Starting recording due to hotkey
+12:50:04.394: ---------------------------------
+12:50:04.394: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:50:04.394: [x264 encoder: 'simple_video_recording'] profile: high
+12:50:04.394: [x264 encoder: 'simple_video_recording'] settings:
+12:50:04.394: 	rate_control: CRF
+12:50:04.394: 	bitrate:      0
+12:50:04.394: 	buffer size:  0
+12:50:04.394: 	crf:          23
+12:50:04.394: 	fps_num:      60
+12:50:04.394: 	fps_den:      1
+12:50:04.394: 	width:        1920
+12:50:04.394: 	height:       1080
+12:50:04.394: 	keyint:       250
+12:50:04.394: 
+12:50:04.425: libfdk_aac encoder created
+12:50:04.425: libfdk_aac bitrate: 192, channels: 2
+12:50:04.426: ==== Recording Start ===============================================
+12:50:04.426: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/abhi/Videos/2025-01-05 12-50-04.mp4'...
+12:50:14.564: User switched to scene 'scene_cam_down'
+12:50:14.567: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:50:31.133: Stopping recording due to hotkey
+12:50:31.950: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/abhi/Videos/2025-01-05 12-50-04.mp4' stopped
+12:50:31.950: Output 'simple_file_output': stopping
+12:50:31.950: Output 'simple_file_output': Total frames output: 1603
+12:50:31.950: Output 'simple_file_output': Total drawn frames: 1651
+12:50:31.950: ==== Recording Stop ================================================
+12:50:31.963: libfdk_aac encoder destroyed
+12:50:54.102: User switched to scene 'intro'
+12:50:54.424: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:50:56.973: Starting recording due to hotkey
+12:50:56.978: ---------------------------------
+12:50:56.978: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:50:56.978: [x264 encoder: 'simple_video_recording'] profile: high
+12:50:56.978: [x264 encoder: 'simple_video_recording'] settings:
+12:50:56.978: 	rate_control: CRF
+12:50:56.978: 	bitrate:      0
+12:50:56.978: 	buffer size:  0
+12:50:56.978: 	crf:          23
+12:50:56.978: 	fps_num:      60
+12:50:56.978: 	fps_den:      1
+12:50:56.978: 	width:        1920
+12:50:56.978: 	height:       1080
+12:50:56.978: 	keyint:       250
+12:50:56.978: 
+12:50:57.008: libfdk_aac encoder created
+12:50:57.008: libfdk_aac bitrate: 192, channels: 2
+12:50:57.010: ==== Recording Start ===============================================
+12:50:57.010: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/abhi/Videos/2025-01-05 12-50-56.mp4'...
+12:51:05.238: User switched to scene 'scene_cam_down'
+12:51:05.247: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:51:36.164: Stopping recording due to hotkey
+12:51:36.996: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/abhi/Videos/2025-01-05 12-50-56.mp4' stopped
+12:51:36.996: Output 'simple_file_output': stopping
+12:51:36.996: Output 'simple_file_output': Total frames output: 2350
+12:51:36.996: Output 'simple_file_output': Total drawn frames: 2399
+12:51:36.997: ==== Recording Stop ================================================
+12:51:37.014: libfdk_aac encoder destroyed
+12:51:54.815: User switched to scene 'intro'
+12:51:55.140: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:51:57.821: Starting recording due to hotkey
+12:51:57.824: ---------------------------------
+12:51:57.826: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:51:57.826: [x264 encoder: 'simple_video_recording'] profile: high
+12:51:57.826: [x264 encoder: 'simple_video_recording'] settings:
+12:51:57.826: 	rate_control: CRF
+12:51:57.826: 	bitrate:      0
+12:51:57.826: 	buffer size:  0
+12:51:57.826: 	crf:          23
+12:51:57.826: 	fps_num:      60
+12:51:57.826: 	fps_den:      1
+12:51:57.826: 	width:        1920
+12:51:57.826: 	height:       1080
+12:51:57.826: 	keyint:       250
+12:51:57.826: 
+12:51:57.860: libfdk_aac encoder created
+12:51:57.860: libfdk_aac bitrate: 192, channels: 2
+12:51:57.861: ==== Recording Start ===============================================
+12:51:57.861: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/abhi/Videos/2025-01-05 12-51-57.mp4'...
+12:52:06.819: User switched to scene 'scene_cam_down'
+12:52:06.832: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:52:13.972: Stopping recording due to hotkey
+12:52:14.796: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/abhi/Videos/2025-01-05 12-51-57.mp4' stopped
+12:52:14.796: Output 'simple_file_output': stopping
+12:52:14.796: Output 'simple_file_output': Total frames output: 967
+12:52:14.796: Output 'simple_file_output': Total drawn frames: 1016
+12:52:14.796: ==== Recording Stop ================================================
+12:52:14.833: libfdk_aac encoder destroyed
+12:52:28.628: User switched to scene 'intro'
+12:52:28.940: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+12:52:30.932: Starting recording due to hotkey
+12:52:30.936: ---------------------------------
+12:52:30.936: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:52:30.936: [x264 encoder: 'simple_video_recording'] profile: high
+12:52:30.936: [x264 encoder: 'simple_video_recording'] settings:
+12:52:30.936: 	rate_control: CRF
+12:52:30.936: 	bitrate:      0
+12:52:30.936: 	buffer size:  0
+12:52:30.936: 	crf:          23
+12:52:30.936: 	fps_num:      60
+12:52:30.936: 	fps_den:      1
+12:52:30.936: 	width:        1920
+12:52:30.936: 	height:       1080
+12:52:30.936: 	keyint:       250
+12:52:30.936: 
+12:52:30.967: libfdk_aac encoder created
+12:52:30.967: libfdk_aac bitrate: 192, channels: 2
+12:52:30.968: ==== Recording Start ===============================================
+12:52:30.968: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/abhi/Videos/2025-01-05 12-52-30.mp4'...
+12:52:39.514: User switched to scene 'scene_cam_down'
+12:52:39.530: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+12:56:08.724: Stopping recording due to hotkey
+12:56:09.566: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/abhi/Videos/2025-01-05 12-52-30.mp4' stopped
+12:56:09.566: Output 'simple_file_output': stopping
+12:56:09.566: Output 'simple_file_output': Total frames output: 13067
+12:56:09.566: Output 'simple_file_output': Total drawn frames: 13116
+12:56:09.566: ==== Recording Stop ================================================
+12:56:09.581: libfdk_aac encoder destroyed
+13:05:48.285: User switched to scene 'intro'
+13:05:48.607: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+13:07:50.644: Starting recording due to hotkey
+13:07:50.648: ---------------------------------
+13:07:50.648: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:07:50.648: [x264 encoder: 'simple_video_recording'] profile: high
+13:07:50.648: [x264 encoder: 'simple_video_recording'] settings:
+13:07:50.648: 	rate_control: CRF
+13:07:50.648: 	bitrate:      0
+13:07:50.648: 	buffer size:  0
+13:07:50.648: 	crf:          23
+13:07:50.648: 	fps_num:      60
+13:07:50.648: 	fps_den:      1
+13:07:50.648: 	width:        1920
+13:07:50.648: 	height:       1080
+13:07:50.648: 	keyint:       250
+13:07:50.648: 
+13:07:50.682: libfdk_aac encoder created
+13:07:50.682: libfdk_aac bitrate: 192, channels: 2
+13:07:50.683: ==== Recording Start ===============================================
+13:07:50.683: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/abhi/Videos/2025-01-05 13-07-50.mp4'...
+13:08:25.352: User switched to scene 'scene_cam_down'
+13:08:25.362: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+13:19:43.262: Stopping recording due to hotkey
+13:19:44.099: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/abhi/Videos/2025-01-05 13-07-50.mp4' stopped
+13:19:44.099: Output 'simple_file_output': stopping
+13:19:44.099: Output 'simple_file_output': Total frames output: 42756
+13:19:44.099: Output 'simple_file_output': Total drawn frames: 42805
+13:19:44.100: ==== Recording Stop ================================================
+13:19:44.112: libfdk_aac encoder destroyed
+13:31:33.629: User switched to scene 'intro'
+13:31:33.957: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+13:32:50.802: User switched to scene 'scene_cam_down'
+13:32:50.814: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+13:32:52.250: User switched to scene 'intro'
+13:32:52.590: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+13:33:05.000: Starting recording due to hotkey
+13:33:05.005: ---------------------------------
+13:33:05.005: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:33:05.005: [x264 encoder: 'simple_video_recording'] profile: high
+13:33:05.005: [x264 encoder: 'simple_video_recording'] settings:
+13:33:05.005: 	rate_control: CRF
+13:33:05.005: 	bitrate:      0
+13:33:05.005: 	buffer size:  0
+13:33:05.005: 	crf:          23
+13:33:05.005: 	fps_num:      60
+13:33:05.005: 	fps_den:      1
+13:33:05.005: 	width:        1920
+13:33:05.005: 	height:       1080
+13:33:05.005: 	keyint:       250
+13:33:05.005: 
+13:33:05.033: libfdk_aac encoder created
+13:33:05.033: libfdk_aac bitrate: 192, channels: 2
+13:33:05.035: ==== Recording Start ===============================================
+13:33:05.035: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/abhi/Videos/2025-01-05 13-33-05.mp4'...
+13:33:33.159: Stopping recording due to hotkey
+13:33:33.996: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/abhi/Videos/2025-01-05 13-33-05.mp4' stopped
+13:33:33.996: Output 'simple_file_output': stopping
+13:33:33.996: Output 'simple_file_output': Total frames output: 1689
+13:33:33.996: Output 'simple_file_output': Total drawn frames: 1738
+13:33:33.997: ==== Recording Stop ================================================
+13:33:34.017: libfdk_aac encoder destroyed
+13:34:06.895: Starting recording due to hotkey
+13:34:06.898: ---------------------------------
+13:34:06.898: [x264 encoder: 'simple_video_recording'] preset: veryfast
+13:34:06.898: [x264 encoder: 'simple_video_recording'] profile: high
+13:34:06.898: [x264 encoder: 'simple_video_recording'] settings:
+13:34:06.898: 	rate_control: CRF
+13:34:06.898: 	bitrate:      0
+13:34:06.898: 	buffer size:  0
+13:34:06.898: 	crf:          23
+13:34:06.898: 	fps_num:      60
+13:34:06.898: 	fps_den:      1
+13:34:06.898: 	width:        1920
+13:34:06.898: 	height:       1080
+13:34:06.898: 	keyint:       250
+13:34:06.898: 
+13:34:06.929: libfdk_aac encoder created
+13:34:06.929: libfdk_aac bitrate: 192, channels: 2
+13:34:06.930: ==== Recording Start ===============================================
+13:34:06.930: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/abhi/Videos/2025-01-05 13-34-06.mp4'...
+13:34:21.049: [pipewire] Stream 0x55748bce64e0 state: "streaming" (error: none)
+13:34:21.051: User switched to scene 'scene_cam_down'
+13:50:55.542: Stopping recording due to hotkey
+13:50:56.387: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/abhi/Videos/2025-01-05 13-34-06.mp4' stopped
+13:50:56.387: Output 'simple_file_output': stopping
+13:50:56.387: Output 'simple_file_output': Total frames output: 60518
+13:50:56.387: Output 'simple_file_output': Total drawn frames: 60567
+13:50:56.388: ==== Recording Stop ================================================
+13:50:56.407: libfdk_aac encoder destroyed
+13:51:05.478: ==== Shutting down ==================================================
+13:51:05.487: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+13:51:05.487: pulse-input: Got 211706 packets with 254047200 frames
+13:51:05.487: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+13:51:05.487: pulse-input: Got 211708 packets with 254049600 frames
+13:51:05.488: [pipewire] Stream 0x55748bce64e0 state: "paused" (error: none)
+13:51:05.488: [pipewire] Stream 0x55748bce64e0 state: "unconnected" (error: none)
+13:51:05.493: [DroidCamOBS] destroy: "DroidCam OBS"
+13:51:05.493: [DroidCamOBS] stopping
+13:51:05.497: [DroidCamOBS] video_decode_thread end
+13:51:05.515: [DroidCamOBS] video_thread end
+13:51:05.516: [DroidCamOBS] audio_thread end
+13:51:06.499: [DroidCamOBS] cleanup
+13:51:06.528: All scene data cleared
+13:51:06.528: ------------------------------------------------
+13:51:06.605: [Scripting] Total detached callbacks: 0
+13:51:06.605: Freeing OBS context data
+13:51:06.620: == Profiler Results =============================
+13:51:06.620: run_program_init: 1872.87 ms
+13:51:06.620:  ┣OBSApp::AppInit: 90.537 ms
+13:51:06.620:  ┃ ┗OBSApp::InitLocale: 20.541 ms
+13:51:06.620:  ┗OBSApp::OBSInit: 1449.35 ms
+13:51:06.620:    ┣obs_startup: 6.095 ms
+13:51:06.620:    ┗OBSBasic::OBSInit: 1242.29 ms
+13:51:06.620:      ┣OBSBasic::InitBasicConfig: 5.762 ms
+13:51:06.620:      ┣OBSBasic::ResetAudio: 0.445 ms
+13:51:06.620:      ┣OBSBasic::ResetVideo: 121.192 ms
+13:51:06.620:      ┃ ┗obs_init_graphics: 113.789 ms
+13:51:06.620:      ┃   ┗shader compilation: 66.39 ms
+13:51:06.620:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+13:51:06.620:      ┣OBSBasic::InitHotkeys: 0.021 ms
+13:51:06.620:      ┣obs_load_all_modules2: 860.785 ms
+13:51:06.620:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+13:51:06.620:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+13:51:06.620:      ┃ ┣obs_init_module(decklink.so): 0.128 ms
+13:51:06.620:      ┃ ┣obs_init_module(frontend-tools.so): 116.842 ms
+13:51:06.620:      ┃ ┣obs_init_module(image-source.so): 0.014 ms
+13:51:06.620:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+13:51:06.620:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+13:51:06.620:      ┃ ┣obs_init_module(linux-jack.so): 0.008 ms
+13:51:06.620:      ┃ ┣obs_init_module(linux-pipewire.so): 16.672 ms
+13:51:06.620:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.007 ms
+13:51:06.620:      ┃ ┣obs_init_module(linux-v4l2.so): 6.323 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-ffmpeg.so): 55.14 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-filters.so): 0.042 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-nvenc.so): 0.14 ms
+13:51:06.620:      ┃ ┃ ┗nvenc_check: 0.126 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-outputs.so): 0.01 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-qsv11.so): 12.516 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-transitions.so): 0.009 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-vst.so): 0.004 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-webrtc.so): 0.003 ms
+13:51:06.620:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+13:51:06.620:      ┃ ┣obs_init_module(rtmp-services.so): 20.369 ms
+13:51:06.620:      ┃ ┣obs_init_module(text-freetype2.so): 0.014 ms
+13:51:06.620:      ┃ ┗obs_init_module(droidcam-obs.so): 2.375 ms
+13:51:06.620:      ┣OBSBasic::InitService: 9.813 ms
+13:51:06.620:      ┣OBSBasic::ResetOutputs: 0.422 ms
+13:51:06.620:      ┣OBSBasic::CreateHotkeys: 0.047 ms
+13:51:06.620:      ┣OBSBasic::InitPrimitives: 0.175 ms
+13:51:06.620:      ┗OBSBasic::Load: 209.584 ms
+13:51:06.620: obs_hotkey_thread(25 ms): min=0 ms, median=0.001 ms, max=0.206 ms, 99th percentile=0.003 ms, 100% below 25 ms
+13:51:06.620: audio_thread(Audio): min=0.011 ms, median=0.144 ms, max=48.102 ms, 99th percentile=1.483 ms
+13:51:06.620:  ┗receive_audio: min=0.001 ms, median=0.517 ms, max=48.004 ms, 99th percentile=1.092 ms, 0.397311 calls per parent call
+13:51:06.620:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.147 ms, 99th percentile=0.003 ms
+13:51:06.620:    ┗do_encode: min=0.048 ms, median=0.514 ms, max=48 ms, 99th percentile=1.086 ms
+13:51:06.620:      ┣encode(simple_aac_recording0): min=0.046 ms, median=0.505 ms, max=1.957 ms, 99th percentile=1.069 ms
+13:51:06.620:      ┗send_packet: min=0.001 ms, median=0.006 ms, max=47.553 ms, 99th percentile=0.026 ms
+13:51:06.620: obs_graphics_thread(16.6667 ms): min=0.027 ms, median=0.825 ms, max=137.17 ms, 99th percentile=1.911 ms, 99.9978% below 16.667 ms
+13:51:06.620:  ┣tick_sources: min=0 ms, median=0.019 ms, max=137.027 ms, 99th percentile=0.042 ms
+13:51:06.620:  ┣output_frame: min=0.017 ms, median=0.587 ms, max=10.249 ms, 99th percentile=1.581 ms
+13:51:06.620:  ┃ ┣gs_context(video->graphics): min=0.017 ms, median=0.439 ms, max=9.558 ms, 99th percentile=0.95 ms
+13:51:06.620:  ┃ ┃ ┣render_video: min=0.005 ms, median=0.233 ms, max=9.308 ms, 99th percentile=0.692 ms
+13:51:06.620:  ┃ ┃ ┃ ┣render_main_texture: min=0.005 ms, median=0.204 ms, max=9.301 ms, 99th percentile=0.667 ms
+13:51:06.620:  ┃ ┃ ┃ ┣render_convert_texture: min=0.01 ms, median=0.027 ms, max=1.674 ms, 99th percentile=0.054 ms, 0.397308 calls per parent call
+13:51:06.620:  ┃ ┃ ┃ ┗stage_output_texture: min=0.006 ms, median=0.02 ms, max=0.762 ms, 99th percentile=0.037 ms, 0.397308 calls per parent call
+13:51:06.620:  ┃ ┃ ┣gs_flush: min=0.01 ms, median=0.127 ms, max=1.361 ms, 99th percentile=0.287 ms
+13:51:06.620:  ┃ ┃ ┗download_frame: min=0 ms, median=0.09 ms, max=9.076 ms, 99th percentile=0.186 ms, 0.397308 calls per parent call
+13:51:06.620:  ┃ ┗output_video_data: min=0.227 ms, median=0.504 ms, max=3.82 ms, 99th percentile=0.973 ms, 0.397283 calls per parent call
+13:51:06.620:  ┗render_displays: min=0.001 ms, median=0.161 ms, max=29.074 ms, 99th percentile=0.547 ms
+13:51:06.620: OBSBasicSettings::LoadThemeList: min=0.019 ms, median=0.02 ms, max=0.028 ms, 99th percentile=0.028 ms
+13:51:06.620: video_thread(video): min=0.684 ms, median=1.61 ms, max=45.127 ms, 99th percentile=3.227 ms
+13:51:06.620:  ┗receive_video: min=0.683 ms, median=1.607 ms, max=45.124 ms, 99th percentile=3.224 ms
+13:51:06.620:    ┗do_encode: min=0.682 ms, median=1.606 ms, max=45.123 ms, 99th percentile=3.223 ms
+13:51:06.620:      ┣encode(simple_video_recording): min=0.676 ms, median=1.592 ms, max=8.742 ms, 99th percentile=3.197 ms
+13:51:06.620:      ┗send_packet: min=0.001 ms, median=0.007 ms, max=43.404 ms, 99th percentile=0.053 ms
+13:51:06.620: =================================================
+13:51:06.620: == Profiler Time Between Calls ==================
+13:51:06.620: obs_hotkey_thread(25 ms): min=25.011 ms, median=25.157 ms, max=68.319 ms, 99.9858% within ±2% of 25 ms (0% lower, 0.0142486% higher)
+13:51:06.620: obs_graphics_thread(16.6667 ms): min=3.906 ms, median=16.667 ms, max=137.18 ms, 99.9912% within ±2% of 16.667 ms (0.00440706% lower, 0.00440706% higher)
+13:51:06.620: =================================================
+13:51:06.645: Number of memory leaks: 0
