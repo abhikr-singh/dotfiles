@@ -1,3 +1,0 @@
-2025-01-04 12:21:54.931 [info] Started initializing default profile extensions in extensions installation folder. file:///home/abhi/.vscode-oss/extensions
-2025-01-04 12:21:54.951 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/abhi/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/abhi/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
-2025-01-04 12:21:54.951 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/abhi/.vscode-oss/extensions
