@@ -206,9 +206,11 @@ gaps outer 5px
 new_window none
 # for_window [class="^.*"] border pixel 0
 # monitor setting
-exec --no-startup-id xrandr \
-                        --output eDP-1 --scale 0.8x0.8 --primary --pos 0x0 \
-                        --output HDMI-1-0 --auto --right-of eDP-1
+# exec --no-startup-id xrandr \
+#                         --output eDP-1 --primary --pos 0x0 \
+#                         --output HDMI-1-0 --auto --right-of eDP-1
+
+exec --no-startup-id ~/.config/i3/scripts/monitor-setup.sh
 
 exec --no-startup-id picom -b --config ~/.config/picom/picom.conf
 

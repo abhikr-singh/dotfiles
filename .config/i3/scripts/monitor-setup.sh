@@ -1,0 +1,68 @@
+#!/bin/sh
+
+# Fetch xrandr output once
+XRANDR_OUTPUT=$(xrandr)
+
+# Function to get mode and rate for a given monitor
+get_monitor_info() {
+	echo "$XRANDR_OUTPUT" | awk -v monitor="$1" '
+        $1 == monitor { getline; print $1, $2 }
+    ' | tr -d '*+'
+}
+
+# Get all connected monitors
+set -- $(echo "$XRANDR_OUTPUT" | awk '$2 == "connected" { print $1 }')
+NUM_MONITORS=$#
+
+# Handle layouts based on number of monitors
+case $NUM_MONITORS in
+1)
+	monitor_1="$1"
+	set -- $(get_monitor_info "$monitor_1")
+	mode_1="$1"
+	rate_1="$2"
+
+	xrandr --output "$monitor_1" --primary --mode "$mode_1" --pos 0x0 --rate "$rate_1"
+	;;
+
+2)
+	monitor_1="$1"
+	monitor_2="$2"
+
+	set -- $(get_monitor_info "$monitor_1")
+	mode_1="$1"
+	rate_1="$2"
+
+	set -- $(get_monitor_info "$monitor_2")
+	mode_2="$1"
+	rate_2="$2"
+
+	# Parse resolution dimensions
+	width_1=$(echo "$mode_1" | cut -d'x' -f1)
+	height_1=$(echo "$mode_1" | cut -d'x' -f2)
+	width_2=$(echo "$mode_2" | cut -d'x' -f1)
+	height_2=$(echo "$mode_2" | cut -d'x' -f2)
+
+	# Only scale if resolutions are different
+	if [ "$mode_1" != "$mode_2" ]; then
+		scale_x=$(echo "scale=4; $width_2 / $width_1" | bc)
+		scale_y=$(echo "scale=4; $height_2 / $height_1" | bc)
+
+		# Virtual screen size = width of both screens after scaling
+		fb_width=$(echo "$width_2 + $width_2" | bc)
+		fb_height=$height_2
+
+		xrandr --fb "${fb_width}x${fb_height}" \
+			--output "$monitor_1" --primary --mode "$mode_1" --rate "$rate_1" --scale "${scale_x}x${scale_y}" --pos 0x0 \
+			--output "$monitor_2" --mode "$mode_2" --rate "$rate_2" --pos "${width_2}x0"
+	else
+		xrandr \
+			--output "$monitor_1" --primary --mode "$mode_1" --rate "$rate_1" --pos 0x0 \
+			--output "$monitor_2" --mode "$mode_2" --rate "$rate_2" --right-of "$monitor_1"
+	fi
+	;;
+
+*)
+	echo "supports only 2 monitors"
+	;;
+esac
