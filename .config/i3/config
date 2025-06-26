@@ -116,8 +116,8 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+# bindsym $mod+s layout stacking
+# bindsym $mod+w layout tabbed
 # bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -211,8 +211,8 @@ new_window none
 #                         --output HDMI-1-0 --auto --right-of eDP-1
 
 exec --no-startup-id ~/.config/i3/scripts/monitor-setup.sh
-
 exec --no-startup-id picom -b --config ~/.config/picom/picom.conf
+exec --no-startup-id ~/.config/i3/wacom-map.sh
 
 # wallpaper
 exec --no-startup-id nitrogen --restore
