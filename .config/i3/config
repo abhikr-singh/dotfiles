@@ -56,6 +56,9 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3blocks
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3blocks
 
+# Screen shots
+bindsym $mod+Shift+s exec --no-startup-id scrot -s ~/Pictures/Screenshots/%Y-%m-%d_%H-%M-%S.png
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -72,6 +75,17 @@ bindsym $mod+e exec nautilus
 
 # kill focused window
 bindsym $mod+q kill
+
+
+# open web browser
+bindsym $mod+w  exec firefox
+
+# open chatgpt
+bindsym $mod+c exec chromium https://chatgpt.com
+
+# open gemini
+bindsym $mod+g exec chromium https://gemini.google.com/app
+
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-2/launcher.sh
@@ -203,6 +217,8 @@ bindsym $mod+p exec ~/.config/rofi/powermenu/type-1/powermenu.sh
 
 gaps inner 5px
 gaps outer 5px
+
+# window appearance
 new_window none
 # for_window [class="^.*"] border pixel 0
 # monitor setting
@@ -212,7 +228,10 @@ new_window none
 
 exec --no-startup-id ~/.config/i3/scripts/monitor-setup.sh
 exec --no-startup-id picom -b --config ~/.config/picom/picom.conf
-exec --no-startup-id ~/.config/i3/wacom-map.sh
+exec --no-startup-id ~/.config/i3/scripts/wacom-map.sh
+
+# autotiling
+exec_always --no-startup-id autotiling
 
 # wallpaper
-exec --no-startup-id nitrogen --restore
+# exec --no-startup-id nitrogen --restore

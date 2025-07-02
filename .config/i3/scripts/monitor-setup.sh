@@ -40,6 +40,11 @@ case $NUM_MONITORS in
 	xrandr \
 		--output "$monitor_1" --primary --mode "$mode_1" --rate "$rate_1" --pos 0x0 \
 		--output "$monitor_2" --mode "$mode_2" --rate "$rate_2" --right-of "$monitor_1"
+
+	# Wait for layout to apply, then restore wallpapers
+	sleep 0.5
+	nitrogen --restore
+
 	;;
 
 *)
